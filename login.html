@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login_page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="topbar">
+        <header>
+            <p>
+                <h2>Store Manager</h2>
+            </p>
+        </header>
+    </div>
+    <div class="form">
+        <form>
+            <p>Login here</p>
+            <hr />
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+            <p>What is your management level?</p>
+            <select name="Roles">
+                <option value="Admistrator">Admistrator</option>
+                <option value="Store-Attendant">Store Attendant</option>
+            </select>
+            <a href="home.html">
+                <input type="submit" name="login" value="login" />
+            </a>
+            <a href= redirects.html><p>forgot password</p></a>
+            <a href= signup.html><i>Create an account</i></a>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
