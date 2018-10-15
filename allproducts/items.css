@@ -1,0 +1,120 @@
+body {
+    color: black;
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+header {
+    height: 120px;
+    background-image: url(images/index.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+#content {
+    overflow: auto;
+}
+#nav, #product1, #footer, product2, product3, #footer {
+    margin: 1%;
+
+}
+.product4, .product5, .product6 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+
+}
+.product6 {
+    margin-right: 0%;
+    background-image: url("images/pampers.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+li {
+	display: inline;
+    padding: 0.5em;
+    margin: 4%;
+}
+#nav, #footer {
+	background-color: blue;
+    border-radius: 5px;
+
+}
+#footer{
+    clear: both;
+}
+
+#product1,  #product2, #product3 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+
+}
+#product1{
+    background-image: url("images/coke.jpg");
+    background-size: contain;
+}
+#product2{
+    background-image: url("images/powder.jpeg");
+    background-size: contain;
+    background-repeat: round;
+}
+#product3{
+    margin-right: 0%;
+    background-image: url("images/geisha.jpeg");
+    background-size: contain;
+    background-repeat: round;
+}
+.product9, .product7, .product8 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+}
+.product7{
+    background-image: url("images/sunseed.png");
+    background-size: contain;
+    background-repeat: round;
+}
+.product8{
+    background-image: url("images/detol.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+.product9{
+    background-image: url("images/blue.jpeg");
+    background-size: contain;
+    background-repeat: round;
+}
+.product4{
+    background-image: url("images/lugazi-sugar.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+.product5{
+    background-image: url("images/colgate.jpeg");
+    background-size: contain;
+    background-repeat: round;
+}
