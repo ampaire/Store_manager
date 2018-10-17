@@ -32,6 +32,9 @@ a:hover{
     margin: 1%;
 
 }
+.button{
+    float: right;
+}
 .product4, .product5, .product6 {
     float:left;
     width: 31.3%;
@@ -43,9 +46,7 @@ a:hover{
 }
 .product6 {
     margin-right: 0%;
-    background-image: url("images/pampers.jpg");
-    background-size: contain;
-    background-repeat: round;
+    
 }
 li {
 	display: inline;
@@ -113,7 +114,6 @@ li {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-
 #product1:hover .image {
     opacity: 0.3;
 }
@@ -121,7 +121,6 @@ li {
 #product1:hover .text {
     opacity: 1;
 }
-
 #product2:hover .image {
     opacity: 0.3;
 }
@@ -188,4 +187,12 @@ li {
     padding: 16px 32px;
     height: 400px;
 }
-
+.search{
+    margin: 1.2em;
+    float: right;
+    margin-top: -1.2em;
+}
+.add{
+    text-align: center;
+   
+}
