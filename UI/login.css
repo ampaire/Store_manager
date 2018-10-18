@@ -1,0 +1,67 @@
+body{
+    color: beige;
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+.wrapper{
+    width: 960px;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+header {
+    height: 120px;
+    background-image: url(images/index.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.topbar{
+    width:960px;
+}
+.form{
+    float: left;
+    width: 360px;
+    height: 370px;
+    margin: 20px auto ;
+    border-radius: 6px;
+    background-color:rgba(13, 82, 134, 0.4);
+    box-shadow: 1px 2px 3px 0 rgba(29, 8, 8, 0.6);
+    text-align: center;
+}
+.form a{
+    border: 100px;
+    text-decoration: none;
+    color:white;
+}
+form a:hover{
+    color: black;
+}
+.roles:hover{
+    background-color: cadetblue;
+}
+#details{
+    display: inline-block;
+    padding: 10px;
+}
+.about{
+    width: 400px;
+    color: #000;
+    float: right;
+}
+footer{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    text-align: right;
+    clear: both;
+    background: blue;
+    padding: 15px ;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+   color: black; 
+}

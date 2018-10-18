@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login_page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+
+        <div class="form">
+            <form id="form_id" method="post" name="login_form">
+                <p>Login here</p>
+                <hr />
+                <div id="details">
+                    <p>
+                        <label>
+                            <input id="email/username" placeholder="username/email" maxlength="30" required="required" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="password" placeholder="password" maxlength="30" id="password" required="required" />
+                        </label>
+                    </p>
+                </div>
+                <p>What is your management level?</p>
+                <select name="roles">
+                    <option value="Admistrator">Admistrator</option>
+                    <option value="Store-Attendant">Store Attendant</option>
+                </select>
+                <a href="home.html">
+                    <input type="button" id="submit" value="Login" onclick="validate()" />
+                </a>
+                <br />
+                <a href="redirects.html">
+                    Forgot password?
+                </a>
+                <a href="signup.html">
+                    Don't have an account yet?Sign up
+                </a>
+            </form>
+        </div>
+        <div class="about">
+            <h3>ABOUT</h3>
+            <i>Store Manager is the web application for managers.It helps you product sales. It is also a good tool for human
+                resource management. It is easy to use and manage. It is the best manegerial tool of our times. Sign Up to
+                start managing your stores.
+            </i>
+            <p>
+                <b>Become the Best Manager by using the Store Manager</b>
+            </p>
+        </div>
+        <footer>
+            <a href="">Legal Information</a> |
+            <a href="">Privacy Policy
+            </a> |
+            <a href="">Copyright &copy; Store Manager 2018</a>
+        </footer>
+    </div>
+</body>
+
+</html>

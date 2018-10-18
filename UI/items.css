@@ -1,0 +1,191 @@
+body {
+    color: black;
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+header {
+    height: 120px;
+    background-image: url(images/index.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+#content {
+    overflow: auto;
+}
+#nav, #product1, #footer, product2, product3, #footer {
+    margin: 1%;
+
+}
+.product4, .product5, .product6 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+
+}
+.product6 {
+    margin-right: 0%;
+    background-image: url("images/pampers.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+li {
+	display: inline;
+    padding: 0.5em;
+    margin: 4%;
+}
+#nav, #footer {
+	background-color: blue;
+    border-radius: 5px;
+
+}
+#footer{
+    clear: both;
+}
+
+#product1,  #product2, #product3 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+
+}
+
+#product2{
+    position: relative;
+}
+#product3{
+    margin-right: 0%;
+    position: relative;
+}
+.product9, .product7, .product8 {
+    float:left;
+    width: 31.3%;
+	height: 10em;
+	margin-bottom: 1em;
+    background-color: #efefef;
+    margin: 1%;
+}
+
+.product4, .product5, .product6, .product7, .product8, .product9{
+    position: relative;
+}
+
+#product1 {
+    position: relative;
+    
+}
+
+.image{
+  opacity: 1;
+   display: block;
+  background-size: contain;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#product1:hover .image {
+    opacity: 0.3;
+}
+
+#product1:hover .text {
+    opacity: 1;
+}
+
+#product2:hover .image {
+    opacity: 0.3;
+}
+  
+#product2:hover .text {
+    opacity: 1;
+}
+
+#product3:hover .image {
+    opacity: 0.3;
+}
+
+#product3:hover .text {
+    opacity: 1;
+}
+
+.product4:hover .image {
+    opacity: 0.3;
+}
+  
+.product4:hover .text {
+   opacity: 1;
+}
+.product5:hover .image {
+   opacity: 0.3;
+}
+  
+.product5:hover .text {
+    opacity: 1;
+}
+.product6:hover .image {
+   opacity: 0.3;
+}
+  
+.product6:hover .text {
+   opacity: 1;
+}
+.product7:hover .image {
+   opacity: 0.3;
+}
+  
+.product7:hover .text {
+   opacity: 1;
+}
+.product8:hover .image {
+   opacity: 0.3;
+}
+  
+.product8:hover .text {
+   opacity: 1;
+}
+.product9:hover .image {
+   opacity: 0.3;
+}
+  
+.product9:hover .text {
+   opacity: 1;
+}
+.first {
+    background-color: rgb(69, 122, 130);
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding: 16px 32px;
+    height: 400px;
+}
+
